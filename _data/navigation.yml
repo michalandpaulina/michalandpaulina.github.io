@@ -26,7 +26,7 @@ en:
     - title: "Contact"
       section: contact-info
     - title: "Polski"
-      url: /pl
+      url: /
 
 # Polish
 # -----------------
@@ -47,4 +47,4 @@ pl:
     - title: "Kontakt"
       section: contact-info
     - title: "English"
-      url: /
+      url: /en
