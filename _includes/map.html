@@ -1,0 +1,42 @@
+<section class="bg-light page-section" id="maps">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">{{ site.data.content.map.header[include.lang] }}</h2>
+        </div>
+    </div>
+    <div id="map-canvas" style="position: relative; overflow: hidden; margin-top: 50px;">
+    </div>
+    <div id="map-content-wrapper" style="pointer-events: none;">
+        <div>
+            <div style="margin: auto; padding-right: 10px; padding-left: 10px;">
+                <div class="text-center">
+                    <div id="btn-venue" class="pointer-events-auto">
+                        {{ site.data.content.map.btn-venue[include.lang] }}
+                    </div>
+                    <div id="btn-show-content" class="pointer-events-auto">
+                        <i class="fa fa-info-circle"></i>&nbsp;&nbsp; {{ site.data.content.map.btn-info[include.lang] }}
+                    </div>
+                    <div id="btn-church" class="pointer-events-auto">
+                        {{ site.data.content.map.btn-church[include.lang] }}
+                    </div>
+                    <!-- <input class="btn btn-primary btn-l text-uppercase map-button btn-margin" style="position: absolute; transform: translate(20%, 0%);"id="btnZoomToChurch" type="button" value="Church"> -->
+                    <div id="map-content" class="toggle-map-content pointer-events-auto top-margin">
+                    <div class="row">
+                        {% for column in site.data.content.map.infobox.columns %}
+                            <div class="col-md-6">
+                                <h5>{{ column.title[include.lang] }}</h5>
+                                <p>{{ column.desc[include.lang] }}</p>
+                            </div>
+                        {% endfor %}
+                        <div style="margin: auto; padding-top: 10px;">
+                            <div class="col-md-12">
+                                <a class="btn text-uppercase btn-primary btn-l" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp; {{ site.data.content.map.btn-back[include.lang] }}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

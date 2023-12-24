@@ -1,0 +1,50 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en:
+  nav:
+    - title: "Info"
+      section: info
+    - title: "Details"
+      section: details
+    - title: "Map"
+      section: maps
+    - title: "Us"
+      section: timeline
+    - title: "Photo"
+      section: photo
+    - title: "RSVP"
+      section: rsvp
+    - title: "Contact"
+      section: contact-info
+    - title: "Polski"
+      url: /pl
+
+# Polish
+# -----------------
+pl:
+  nav:
+    - title: "Info"
+      section: info
+    - title: "Szczegóły"
+      section: details
+    - title: "Mapa"
+      section: maps
+    - title: "My"
+      section: timeline
+    - title: "Zdjęcia"
+      section: photo
+    - title: "RSVP"
+      section: rsvp
+    - title: "Kontakt"
+      section: contact-info
+    - title: "English"
+      url: /

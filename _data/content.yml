@@ -1,0 +1,271 @@
+navbar:
+  header:
+    title: Michał & Paulina
+    text: 08.06.2024
+    button: RSVP
+    buttonlink: "#rsvp"
+
+infosection:
+  header:
+    en: "Michał & Paulina"
+    pl: "Michał i Paulina"
+  infotext:
+    en: "We are getting married <br> and we would like you to be a part of it. <br> The date is 08.06.2024, <br> mark your calendar."
+    pl: "Pobieramy się! <br> Chcemy świętować razem z Wami. <br> 08.06.2024 <br> Zaznacz w kalendarzu."
+  photos:
+    left: assets/img/intro/paulina.png
+    right: assets/img/intro/michal.png
+    mobile: assets/img/intro/together.png
+
+
+details:
+  header:
+    en: "Details"
+    pl: "Szczegóły"
+  subtitle:
+    en: "Some organisational details"
+    pl: "Kilka szczegółów organizacyjnych"
+  columns:
+    - title:
+        en: "Timeline"
+        pl: "Godziny"
+      icon: "fa-clock"
+      content:
+        - title:
+            en: "08.06.24 - 5pm"
+            pl: "08.06.24 - 17.00"
+          desc:
+            en: "Wedding ceremony at church"
+            pl: "Ślub w kościele"
+        - title:
+            en: "08.06.24 - ~6pm"
+            pl: "08.06.24 - ~18.00"
+          desc:
+            en: "Reception at the venue (see <a href='#maps'>map</a>)"
+            pl: "Przyjęcie na sali weselnej (<a href='#maps'>mapa</a>)"
+        - title:
+            en: "09.06.24 - TBA"
+            pl: "09.06.24 - TBA"
+          desc:
+            en: "'After-party' at the venue"
+            pl: "Poprawiny"
+    - title:
+        en: "Info"
+        pl: "Info"
+      icon: "fa-info"
+      content:
+        - title:
+            en: "Wedding attire"
+            pl: "Strój na ślub"
+          desc:
+            en: "Coctail attire"
+            pl: "Strój wieczorowy"
+        - title:
+            en: "'After-party' attire"
+            pl: "Strój na poprawiny"
+          desc:
+            en: "Smart (but less formal than wedding)"
+            pl: "Strój elegancki"
+    - title:
+        en: "Transport"
+        pl: "Transport"
+      icon: "fa-bus"
+      content:
+        - title:
+            en: "Info"
+            pl: "Info"
+          desc:
+            en: "Transport details will be here after RSVP date"
+            pl: "Informacje znajdą się tu po dacie RSVP"
+        
+map:
+  header:
+    en: "How do I get there?"
+    pl: "Jak się do nas dostać?"
+  btn-venue:
+    en: "Venue"
+    pl: "Sala"
+  btn-church:
+    en: "Church"
+    pl: "Kościół"
+  btn-info:
+    en: "Show info"
+    pl: "Pokaż więcej"
+  btn-back:
+    en: "Show map"
+    pl: "Pokaż mapę"
+  infobox:
+    columns:
+      - title:
+          en: "Venue"
+          pl: "Sala weselna"
+        desc:
+          en: "<b>U Ojdanów</b></br>Tadeusza Kościuszki 104</br>07-100 Węgrów</br>Poland"
+          pl: "<b>U Ojdanów</b></br>Tadeusza Kościuszki 104</br>07-100 Węgrów"
+      - title:
+          en: "Ceremony"
+          pl: "Ślub"
+        desc:
+          en: "<b>Konkatedra Niepokalanego Serca Najświętszej Maryi Panny</b></br>08-300 Sokołów Podlaski</br>Poland"
+          pl: "<b>Konkatedra Niepokalanego Serca Najświętszej Maryi Panny</b></br>08-300 Sokołów Podlaski"
+
+timeline:
+  title:
+    en: "A bit about us"
+    pl: "Coś o nas"
+  text:
+    en: "Our short story"
+    pl: "Krótka historia"
+  section: timeline
+  start_align: "left"
+  events:
+    - title:
+        en: "Beginning"
+        pl: "Początek"
+      year: "2012"
+      desc:
+        en: "We first met in a scout group, followed by going to the same high school. Finally, in our last year of school, we began this, already by now, not-so-short story."
+        pl: "Poznaliśmy się w drużynie harcerskiej, poszliśmy do tego samego liceum. W klasie maturalnej zaczęła się nasze, już teraz niekrótka, historia."
+      image: assets/img/timeline/studniowka.jpg
+    - title:
+        en: "Warsaw"
+        pl: "Warszawa"
+      year: "2013-2018"
+      desc:
+        en: "After high school we moved to Warsaw to start our Bachelor degrees. This was the time of sharing a student life together."
+        pl: "Po liceum przenieśliśmy się na studia do Warszawy. To czas wspólnego życia studenckiego."
+      image: assets/img/timeline/wwa.jpg
+    - title:
+        en: "London"
+        pl: "Londyn"
+      year: "2018-"
+      desc:
+        en: "What was supposed to be a one year Masters degree, turned out to be an ongoing London adventure. This has been a time of finishing our degrees and a lot of changes."
+        pl: "Wyjazd na 1 rok magisterki przeistoczył się w trwającą londyńską przygodę. Dla nas to czas ukończenia dyplomów i wielu zmian."
+      image: assets/img/timeline/lond.jpg
+    - title:
+        en: "Proposal"
+        pl: "Zaręczyny"
+      year: "11.11.2022"
+      desc: 
+        en: "On our 10th anniversary we hiked Pico Ruivo. On top of the mountain Michal proposed to which Paulina said YES. It was a great day marking start of wedding preparation craziness."
+        pl: "Na 10 rocznicę wspięliśmy się na Pico Ruivo. Na szczycie góry Michał oświadczył się, Paulina powiedziała TAK. To był wspaniały dzień, który rozpoczął szał przygotowań weselnych."
+      image: assets/img/timeline/engagement.jpg
+    - title:
+        en: "Wedding"
+        pl: "Ślub"
+      year: "08.06.2024"
+      desc:
+        en: "Beginning of the next chapter."
+        pl: "Zaczynamy nowy rozdział."
+      image: assets/img/timeline/rings.jpg
+  end:
+    en: "Celebrate <br> this day <br> with us!"
+    pl: "Świętuj <br> razem <br> z nami!"
+
+photo:
+  header:
+    en: "A picture is worth a thousand words"
+    pl: "Obraz wart tysiąca słów"
+  icon: "fa-cloud-download-alt"
+  link: "https://1drv.ms/f/s!Al9MJAv9vzC6avXbLAB7T1p1E3M?e=N6q4sv"
+  desc:
+    en: "We will upload all the photos and videos to the link above. Use the same access code as for RSVP. <br> If you have photos or videos you'd be happy to share with us, let us know and we will add them to the collection."
+    pl: "Wszystkie zdjęcia i filmy będą dostępne w powyższym linku. Użyjcie tego samego kodu co do RSVP. <br> Jeśli macie zdjęcia, którymi chcielibyście się z nami podzielić, dajcie znać, a my chętnie dodamy je do galerii."
+
+rsvp:
+  header:
+    en: "RSVP"
+    pl: "RSVP"
+  subtitle:
+    en: "We would greatly appreciate if you could RSVP before 31.03.2024."
+    pl: "Prosimy o potwierdzenie przybycia do 31.03.2024."
+  confirm-dialogue:
+    title:
+      en: "Thank you!"
+      pl: "Dziękujemy!"
+    desc:
+      en: "We are glad to see you join us on our big day."
+      pl: "Cieszymy się, że będziesz z nami w tym dniu."
+  confirm-btn:
+    en: "Confirm RSVP"
+    pl: "Potwierdź"
+  fields:
+    - icon: "fa-envelope"
+      type: "email"
+      name: "email"
+      id: "rsvp-email"
+      placeholder:
+        en: "Your email"
+        pl: "Adres email"
+      required: "true"
+    - icon: "fa-user"
+      type: "string"
+      name: "name"
+      id: "rsvp-name"
+      placeholder:
+        en: "Your name"
+        pl: "Imię i nazwisko"
+      required: "true"
+    - icon: "fa-users"
+      type: "number"
+      name: "people"
+      id: "rsvp-numpeople"
+      min: 0
+      max: 6
+      placeholder:
+        en: "Number of people"
+        pl: "Liczba osób"
+      required: "true"
+    - icon: "fa-users"
+      type: "number"
+      name: "kids"
+      id: "rsvp-numkids"
+      min: 0
+      max: 6
+      placeholder:
+        en: "Icluding kids under 12"
+        pl: "W tym dzieci do 12 lat"
+    - icon: "fa-info"
+      type: "string"
+      name: "extra"
+      id: "rsvp-extra"
+      placeholder:
+        en: "Other, e.g. dietary requirements"
+        pl: "Inne, np. dieta"
+    - icon: "fa-key"
+      type: "password"
+      name: "invite_code"
+      id: "invite_code"
+      placeholder:
+        en: "Invite code"
+        pl: "Kod zaproszenia"
+      required: "true"
+
+contact:
+  header:
+    en: "Contact"
+    pl: "Kontakt"
+  subtitle:
+    en: "Feel free to contact through any of the platforms."
+    pl: "Możecie skontaktować się z nami przez:"
+  subtext:
+    en: "Or use the phone number included on the invitation."
+    pl: "Możecie też dzwonić lub pisać na WhatsAppie na numer podany w zaproszeniu."
+  people:
+    - name: "Michał"
+      image: assets/img/contact/michal.png
+      social:
+        - url: https://twitter.com/michaal94
+          icon: fab fa-twitter
+        - url: https://www.facebook.com/michal.nazarczuk/
+          icon: fab fa-facebook-f
+        - url: https://www.linkedin.com/in/michal-nazarczuk/
+          icon: fab fa-linkedin-in
+    - name: "Paulina"
+      image: assets/img/contact/paulina.jpg
+      social:
+        - url: https://www.facebook.com/paulina.glabikowska/
+          icon: fab fa-facebook-f
+        - url: https://www.linkedin.com/in/paulina-g%C5%82%C4%85bikowska-52146925a/
+          icon: fab fa-linkedin-in

@@ -1,0 +1,29 @@
+<section class="page-section" id="photo">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">{{ site.data.content.photo.header[include.lang] }}</h2>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-8 col-sm-8 mx-auto" style="margin-top:25px">
+                <span class="icon-hover fa-stack fa-4x">
+                    <a href="{{ site.data.content.photo.link }}" target="_blank">
+                        <i class="a-icon-bg fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="a-icon fas {{ site.data.content.photo.icon }} fa-stack-1x fa-inverse"></i>
+                    </a>
+                </span>
+                <h4 class="service-heading">
+                    <a href="{{ site.data.content.photo.link }}" target="_blank">
+                        <p>Onedrive</p>
+                    </a>
+                </h4>
+                <div class="text-muted">
+                    {{ site.data.content.photo.desc[include.lang] }}
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+</section>

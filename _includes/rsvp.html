@@ -1,0 +1,85 @@
+<section class="bg-light page-section rsvp" id="rsvp">
+
+    <!-- Confirm pop up -->
+    <div id="rsvp-modal" class="text-center modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                    <div class="section-padding" style="padding: 40px 0;">
+                        <h3>
+                            {{ site.data.content.rsvp.confirm-dialogue.title[include.lang] }}
+                        </h3>
+                        <p style="color: #868e96; margin-bottom: 0;">
+                            {{ site.data.content.rsvp.confirm-dialogue.desc[include.lang] }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading"> {{ site.data.content.rsvp.header[include.lang] }} </h2>
+                <h3 class="section-subheading text-muted"> {{ site.data.content.rsvp.subtitle[include.lang] }} </h3>
+            </div> 
+        </div>
+        <div class="col-md-8 offset-md-2 col-lg-8 offset-lg-2">
+            <form id="rsvp-form" class="rsvp-form" action="" method="POST">
+
+                {% for field in site.data.content.rsvp.fields %}
+                {% assign mod = forloop.index | modulo: 2 %}
+                {% if mod!=0 %}
+                    <div class="row text-center">
+                {% endif %}
+                    
+                {% capture req %}
+                {% if field.required and field.required=='true'%}
+                required
+                {% else %}
+                {% endif %}
+                {% endcapture %}
+
+                {% capture last-line-odd %}
+                {% if mod!=0 and forloop.index==forloop.length%}
+                offset-md-3 offset-lg-3 offset-sm-3
+                {% else %}
+                {% endif %}
+                {% endcapture %}
+
+                        <div class="col-md-6 col-sm-6 col-lg-6 {{last-line-odd}}">
+                            <div class="form-input-group">
+                                <i class="fa {{ field.icon }}"></i>
+                                <input type="{{ field.type }}" name="{{ field.name }}" min="{{ field.min | default:'' }}" max="{{ field.max | default:''}}" placeholder="{{ field.placeholder[include.lang] }}" id="{{ field.id | default:'' }}" {{req}}>
+                            </div>
+                        </div>
+
+                {% if mod==0 %}
+                    </div>
+                {% else %}
+                {% if forloop.index==forloop.length %}
+                    </div>
+                {% endif %}
+                {% endif %}
+
+                {% endfor %}
+                
+                <input type="hidden" name="lang" value="{{ include.lang }}" />
+
+                <div class="row">
+                    <div class="col-md-12" id="alert-wrapper"></div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-12">    
+                        <button class="btn-rsvp">
+                            {{ site.data.content.rsvp.confirm-btn[include.lang] }}
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
