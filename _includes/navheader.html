@@ -9,6 +9,18 @@
           {{ site.title }}
         {%- endif -%}
     </a>
+    {%- if include.lang == 'pl' -%}
+      <a class="navbar-lang" href="/en">
+        <i class="fi fi-gb"></i>
+      </a>
+    {%- else -%}
+      <a class="navbar-lang" href="/">
+        <i class="fi fi-pl"></i>
+      </a>
+    {%- endif -%}
+    <!-- <a class="navbar-lang navbar-lang-right" href="/en">
+      <i class="fi fi-gb"></i>
+    </a> -->
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       Menu
       <i class="fas fa-bars"></i>
