@@ -178,8 +178,8 @@ rsvp:
     en: "RSVP"
     pl: "RSVP"
   subtitle:
-    en: "We would greatly appreciate if you could RSVP before 31.03.2024."
-    pl: "Prosimy o potwierdzenie przybycia do 31.03.2024."
+    en: "Please RSVP below."
+    pl: "Prosimy o potwierdzenie przybycia."
   confirm-dialogue:
     title:
       en: "Thank you!"
