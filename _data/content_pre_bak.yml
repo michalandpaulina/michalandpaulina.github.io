@@ -10,8 +10,8 @@ infosection:
     en: "Michał & Paulina"
     pl: "Michał i Paulina"
   infotext:
-    en: "08.06.2024 <br> It was an amazing day. <br> Thank you for celebrating with us!"
-    pl: "08.06.2024 <br> To był wspaniały dzień. <br> Dziękujemy, że byliście z nami."
+    en: "08.06.2024 <br> It was an amazing day. <br> Thank you for celebrating with us."
+    pl: "Pobieramy się! <br> Chcemy świętować razem z Wami. <br> 08.06.2024 <br> Zaznacz w kalendarzu."
   photos:
     left: assets/img/intro/paulina.png
     right: assets/img/intro/michal.png
@@ -158,10 +158,10 @@ timeline:
       desc:
         en: "Beginning of the next chapter."
         pl: "Zaczynamy nowy rozdział."
-      image: assets/img/timeline/wed.jpg
+      image: assets/img/timeline/rings.jpg
   end:
-    en: "<br> Thank you!!!"
-    pl: "<br> Dziękujemy!!!"
+    en: "Celebrate <br> this day <br> with us!"
+    pl: "Świętuj <br> razem <br> z nami!"
 
 photo:
   header:

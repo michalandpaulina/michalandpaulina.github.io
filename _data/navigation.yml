@@ -13,16 +13,10 @@ en:
   nav:
     - title: "Info"
       section: info
-    - title: "Details"
-      section: details
-    - title: "Map"
-      section: maps
-    - title: "Us"
-      section: timeline
     - title: "Photo"
       section: photo
-    - title: "RSVP"
-      section: rsvp
+    - title: "Us"
+      section: timeline
     - title: "Contact"
       section: contact-info
     - title: "Polski"
@@ -34,16 +28,10 @@ pl:
   nav:
     - title: "Info"
       section: info
-    - title: "Szczegóły"
-      section: details
-    - title: "Mapa"
-      section: maps
-    - title: "My"
-      section: timeline
     - title: "Zdjęcia"
       section: photo
-    - title: "RSVP"
-      section: rsvp
+    - title: "My"
+      section: timeline
     - title: "Kontakt"
       section: contact-info
     - title: "English"
